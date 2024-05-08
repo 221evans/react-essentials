@@ -13,9 +13,9 @@ export default function Header() {
     // Getting random description
     const description = reactDescriptions[getRandomInt(2)]
     return (
-        <header> // Wrapping the component elements in header tag
-            <img src={reactImg} alt="Stylized atom"/> // img tag with reactImg
-            <h1>React Essentials</h1> // Displaying the Header title
+        <header>
+            <img src={reactImg} alt="Stylized atom"/>
+            <h1>React Essentials</h1>
             <p> // Description about the content
                 Core React concepts you will need for almost any app you are
                 going to build!
